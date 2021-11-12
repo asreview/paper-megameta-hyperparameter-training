@@ -4,10 +4,10 @@ from setuptools import find_namespace_packages
 setup(
     name='asreview-plugin-model-cnn-17-layer',
     version='0.1.1',
-    description='The plugin that adds a new cnn classifier',
-    url='https://github.com/JTeijema/asreview-plugin-model-cnn-17-layer',
+    description='A special version of the CNN-17-layer model optimized for the Megameta project.',
+    url='https://github.com/asreview/paper-megameta-hyperparameter-training',
     author='ASReview team, Jelle Teijema',
-    author_email='j.j.teijema@gmail.com',
+    author_email='asreview@uu.nl',
     classifiers=[
         'Development Status :: 1 - Beta',
         'License :: OSI Approved :: Apache Software License',
@@ -39,7 +39,7 @@ setup(
         ]
     },
     project_urls={
-        'Bug Reports': 'https://github.com/JTeijema/asreview-plugin-model-cnn-17-layer/issues',
-        'Source': 'https://github.com/JTeijema/asreview-plugin-model-cnn-17-layer',
+        'Bug Reports': 'https://github.com/asreview/paper-megameta-hyperparameter-training/issues',
+        'Source': 'https://github.com/asreview/paper-megameta-hyperparameter-training',
     },
 )

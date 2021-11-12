@@ -55,7 +55,7 @@ This guide details how the CNN was optimized and trained.
     ![afbeelding](https://user-images.githubusercontent.com/28191416/140069002-a72f66f8-2ded-4065-8476-facd2735bd1e.png)
 
 
-    - In this front end, create a new project file with one of the excel files 
+    - In this front end, create a new project file with one of the Excel files.
 
     - When the training of the new project file is finished (after a long time),
       the still processing colab cell running ASReview will print the optimal
