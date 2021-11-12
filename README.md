@@ -22,11 +22,12 @@ the final project files.
 
 ## Step-by-step quickguide
 1. Create a project file from one of the input files.
-2. Select the HPO-CNN optimizer as classifier for the created project file and
-   train the project file, to recieve the optimal CNN hyper parameters.
-3. Plug these parameters into the CNN model (not the HPO-CNN model).
-4. Train the CNN model.
-5. Start screening records with the optimized CNN model.
+2. Select the HPO-CNN optimizer as classifier for the created project file.
+3. Train the project file to recieve the optimal CNN hyper parameters. The
+   optimal parameters appear in the console used to start ASReview.
+4. Plug these parameters into the CNN model (not the HPO-CNN model).
+5. Train the CNN model.
+6. Start screening records with the optimized CNN model.
 
 ## Step-by-step guide
 This guide details how the CNN was optimized and trained.
