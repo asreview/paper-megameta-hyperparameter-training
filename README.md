@@ -14,10 +14,11 @@ used to find the optimal settings for each dataset, and
 [`asreview-model-cnn-17-layer`](https://github.com/JTeijema/asreview-plugin-model-cnn-17-layer)
 was used to implement these settings.
 
-The `scripts` folder contains a Jupyter Notebook that can be run in Google
-Colab. This script installs the plugins found in the `plugins` folder and then
-creates an ASReview lab instance that can be used to employ these plugins, find
-the optimal hyperparameters, and create the final project files.
+The `scripts` folder contains a Jupyter Notebook that can be run in [Google
+Colab](https://colab.research.google.com/). This script installs the plugins
+found in the `plugins` folder and then creates an ASReview lab instance that can
+be used to employ these plugins, find the optimal hyperparameters, and create
+the final project files.
 
 ## Step-by-step guide
 This guide details how the CNN was optimized and trained.
@@ -25,7 +26,7 @@ This guide details how the CNN was optimized and trained.
 1. The process started with 3 different excel files containing ASReview output. 
 
 
-2. In google Colab, upload and run the
+2. In Google Colab, upload and run the
    `cnn_training_script_for_use_in_google_colab.ipynb` file in found in the
    folder called `scripts`. This file is used to optimize the CNNs for the later
    processing.
@@ -43,7 +44,7 @@ This guide details how the CNN was optimized and trained.
 
     - The notebook uses NGROK to access the ASReview frontend. A personal NGROK
       token is needed for the `NGROK_AUTH_TOKEN` variable. A link with
-      instructions can be found in the notebook. 
+      instructions on where to get such a token can be found in the notebook.
 
     ![afbeelding](https://user-images.githubusercontent.com/28191416/140068962-59483f2c-015a-4406-9d50-f162ec653a57.png)
 
