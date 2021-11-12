@@ -46,14 +46,27 @@ This guide details how the CNN was optimized and trained.
       token is needed for the `NGROK_AUTH_TOKEN` variable. A link with
       instructions on where to get such a token can be found in the notebook.
 
-    ![afbeelding](https://user-images.githubusercontent.com/28191416/140068962-59483f2c-015a-4406-9d50-f162ec653a57.png)
+    ```python
+    !pip install pyngrok --quiet
+    from pyngrok import ngrok
 
+    # Terminate open tunnels if exist
+    ngrok.kill()
+
+    # Setting the authtoken (optional)
+    # Get your authtoken from https://dashboard.ngrok.com/auth
+    NGROK_AUTH_TOKEN = "fill token here"
+    ngrok.set_auth_token(NGROK_AUTH_TOKEN)
+    ```
 
     - After running the notebook, there will be a link produced by NGROK. This
       link will open the ASReview frontend.  
 
-    ![afbeelding](https://user-images.githubusercontent.com/28191416/140069002-a72f66f8-2ded-4065-8476-facd2735bd1e.png)
+    ```python
+    ngrok.connect(port="80", proto="http")
 
+    <NgrokTunnel: "http://d3c5-35-197-26-146.ngrok.io" -> "http://localhost:80">
+    ```
 
     - In this front end, create a new project file with one of the Excel files.
 
@@ -61,7 +74,13 @@ This guide details how the CNN was optimized and trained.
       the still processing colab cell running ASReview will print the optimal
       parameters in the output.  
 
-    ![afbeelding](https://user-images.githubusercontent.com/28191416/140069092-50d022a1-849f-483a-9f54-788b23368d2d.png)
+    ```
+    Hpo trail:  77/80
+    Hpo trail:  77/80
+    Hpo trail:  77/80
+    Hpo trail:  77/80
+    FOUND HYPERPARAMETERS:  {'nlayers': 3, 'nfilters':  209}
+    ```
 
 3. These parameters are used to optimize the CNN used for the final project
    files. 
@@ -71,7 +90,15 @@ This guide details how the CNN was optimized and trained.
       the results into the `nlayers` and `nfilters` variables in the
       `asreview-plugin-model-cnn-17-layer\asreviewcontrib\models\cnn.py` file. 
 
-    ![afbeelding](https://user-images.githubusercontent.com/28191416/140069166-0a08bbec-44b2-4fc7-9e4b-931ca67d118e.png)
+    ```python
+    def _create_dense_nn_model(_size):
+      def model_wrapper():
+        backend.clear_session()
+
+        nfilters = 209
+        
+        model = Sequential()
+    ```
 
 
 
