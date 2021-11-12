@@ -14,8 +14,8 @@ used to find the optimal settings for each dataset, and
 [`asreview-model-cnn-17-layer`](https://github.com/JTeijema/asreview-plugin-model-cnn-17-layer)
 was used to implement these settings.
 
-The `Scripts` folder contains a Jupyter Notebook that can be run in Google
-Colab. This script installs the plugins found in the plugins folder and then
+The `scripts` folder contains a Jupyter Notebook that can be run in Google
+Colab. This script installs the plugins found in the `plugins` folder and then
 creates an ASReview lab instance that can be used to employ these plugins, find
 the optimal hyperparameters, and create the final project files.
 
