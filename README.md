@@ -20,6 +20,13 @@ found in the `plugins` folder and then creates an ASReview lab instance that can
 be used to employ these plugins, find the optimal hyperparameters, and create
 the final project files.
 
+## Step-by-step quickguide
+1. Create projects files for each of the 3 input files.
+2. Run the HPO-CNN optimizer to recieve the optimal CNN hyper parameters.
+3. Plug these parameters into the CNN model (not the HPO-CNN model).
+4. Train the CNN model.
+5. Start screening records with the optimized CNN model.
+
 ## Step-by-step guide
 This guide details how the CNN was optimized and trained.
 
@@ -100,6 +107,6 @@ This guide details how the CNN was optimized and trained.
         model = Sequential()
     ```
 
-
-
+4. Install this newly created CNN. Using this new optimized CNN, create the
+   projects files for screening.
 
