@@ -1,5 +1,14 @@
-# paper-megameta-hyperparameter-training
-Hyperparameter-training for the Mega-Meta project
+# Hyperparameter-training for the Mega-Meta project
+
+The repository is part of the so-called, Mega-Meta study on reviewing factors
+contributing to substance use, anxiety, and depressive disorders. The study
+protocol has been pre-registered at
+[Prospero](https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021266297).
+The procedure for obtaining the search terms, the exact search query, and
+selecting key papers by expert consensus can be found on the [Open Science
+Framework](https://osf.io/m5uhy/). The three datasets, one for each disorder,
+used for screening in ASReview and the partly labeled output datasets can be
+found on DANS[NEEDS LINK].  
 
 This repository stores the scripts and plugins that were used for the creation
 of the three final project files. These final project files were created using a
@@ -7,7 +16,7 @@ classifier based on a [convolutional neural
 network](https://github.com/JTeijema/asreview-plugin-model-cnn-17-layer),
 optimized using [Optuna](https://github.com/optuna/optuna).
 
-## content
+## Content
 The `Plugins` folder contains the 2 used ASReview plugins.
 [`asreview-cnn-hpo`](https://github.com/BartJanBoverhof/asreview-cnn-hpo) was
 used to find the optimal settings for each dataset, and
@@ -32,7 +41,7 @@ the final project files.
 ## Step-by-step guide
 This guide details how the CNN was optimized and trained.
 
-1. The process started with 3 different excel files containing ASReview output. 
+1. The process started with 3 different excel files containing ASReview output.
 
 
 2. In Google Colab, upload and run the
@@ -42,14 +51,14 @@ This guide details how the CNN was optimized and trained.
 
     - A custom-made version of the HPO-CNN was used to determine the optimal
       hyperparameters for each of the project files. These hyperparameters were
-      then applied to the CNN classifier model. 
+      then applied to the CNN classifier model.
 
         - To use this custom-made version of the HPO-CNN, upload the folder
           containing the HPO-CNN version to Colab. A quick way of doing this is
-          by zipping-up the folder and uploading this zip file. 
+          by zipping-up the folder and uploading this zip file.
 
         - The notebook contains code for unzipping, and then installing the
-          plugin automatically. 
+          plugin automatically.
 
     - The notebook uses NGROK to access the ASReview frontend. A personal NGROK
       token is needed for the `NGROK_AUTH_TOKEN` variable. A link with
@@ -92,12 +101,12 @@ This guide details how the CNN was optimized and trained.
     ```
 
 3. These parameters are used to optimize the CNN used for the final project
-   files. 
+   files.
 
     - For the training of these project files, the parameters that resulted as
       an output of the HPO are used for the CNN. The output is set by filling in
       the results into the `nlayers` and `nfilters` variables in the
-      `asreview-plugin-model-cnn-17-layer\asreviewcontrib\models\cnn.py` file. 
+      `asreview-plugin-model-cnn-17-layer\asreviewcontrib\models\cnn.py` file.
 
     ```python
     def _create_dense_nn_model(_size):
@@ -105,10 +114,19 @@ This guide details how the CNN was optimized and trained.
         backend.clear_session()
 
         nfilters = 209
-        
+
         model = Sequential()
     ```
 
 4. Install this newly created CNN. Using this new optimized CNN, create the
    projects files for screening.
 
+
+## Funding
+This project is funded by a grant from the Centre for Urban Mental Health, University of Amsterdam, The Netherlands
+
+## Licence
+The content in this repository is published under the MIT license.
+
+## Contact
+For any questions or remarks, please send an email to [ADD EMAIL].
