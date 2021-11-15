@@ -1,5 +1,4 @@
-# paper-megameta-hyperparameter-training
-Hyperparameter-training for the Mega-Meta project
+# Hyperparameter-training for the Mega-Meta project
 
 The repository is part of the so-called, Mega-Meta study on reviewing factors
 contributing to substance use, anxiety, and depressive disorders. The study
