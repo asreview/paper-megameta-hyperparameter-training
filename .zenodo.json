@@ -24,10 +24,19 @@
 	],
 	"related_identifiers": [
 		{
-			"relation": "isSupplementTo",
-		 	"identifier": ""
+			"relation": "isPartOf",
+		 	"identifier": "<prospero id>"
+		},
+		{
+			"relation": "requires",
+		 	"identifier": "<osf id>"
 		}
 	],
 	"license": "MIT",
-	"upload_type": "software"
+	"upload_type": "software",
+	"grants": [
+		{
+			"id":"<grand id>"
+		}
+	]
 }
