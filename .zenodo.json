@@ -2,25 +2,35 @@
 	"description": "",
 	"title": "",
 	"creators": [{
-			"name": "",
-			"affiliation": "",
-			"orcid": ""
-		}
-	],
-	"contributors": [
+			"name": "Teijema, Jelle",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-9282-4311"
+		},
 		{
-			"name": "",
-			"affiliation": "",
-			"orcid": "",
-			"type": "" 
+			"name": "Van de Schoot, Rens",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-7736-2091"
+		},
+		{
+			"name": "van den Brand, Sofie",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0002-2408-3336 "
+		},
+		{
+			"name": "De Bruin, Jonathan",
+			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0002-4297-0502"
 		}
 	],
 	"keywords": [
 		"ASReview",
-		"",
-		"",
-		"",
-		""
+		"systematic review",
+		"active learning",
+		"machine learning",
+		"text data",
+		"natural language processing",
+		"neural network",
+		"convolutional neural network"
 	],
 	"related_identifiers": [
 		{
