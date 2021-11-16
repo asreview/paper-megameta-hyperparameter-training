@@ -29,7 +29,7 @@
 		},
 		{
 			"relation": "requires",
-		 	"identifier": "<osf id>"
+		 	"identifier": "https://doi.org/10.1016/j.cpr.2019.101773"
 		}
 	],
 	"license": "MIT",
