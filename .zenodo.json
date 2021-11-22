@@ -43,10 +43,5 @@
 		}
 	],
 	"license": "MIT",
-	"upload_type": "software",
-	"grants": [
-		{
-			"id":"<grand id>"
-		}
-	]
+	"upload_type": "software"
 }
