@@ -35,11 +35,11 @@
 	"related_identifiers": [
 		{
 			"relation": "isPartOf",
-		 	"identifier": "<prospero id>"
+		 	"identifier": "https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021266297"
 		},
 		{
 			"relation": "requires",
-		 	"identifier": "https://doi.org/10.1016/j.cpr.2019.101773"
+		 	"identifier": "DANS"
 		}
 	],
 	"license": "MIT",
