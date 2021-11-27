@@ -1,0 +1,43 @@
+{
+	"description": "The repository is part of the so-called, Mega-Meta study on reviewing factors contributing to substance use, anxiety, and depressive disorders. The study protocol has been pre-registered at Prospero. The procedure for obtaining the search terms, the exact search query, and selecting key papers by expert consensus can be found on the Open Science Framework. The three datasets, one for each disorder, used for screening in ASReview and the partly labeled output datasets can be found on DANS[NEEDS LINK].",
+	"title": "Hyperparameter-training for the Mega-Meta project",
+	"creators": [{
+			"name": "Teijema, Jelle",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-9282-4311"
+		},
+		{
+			"name": "Van de Schoot, Rens",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-7736-2091"
+		},
+		{
+			"name": "van den Brand, Sofie",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0002-2408-3336 "
+		},
+		{
+			"name": "De Bruin, Jonathan",
+			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0002-4297-0502"
+		}
+	],
+	"keywords": [
+		"ASReview",
+		"systematic review",
+		"active learning",
+		"machine learning",
+		"text data",
+		"natural language processing",
+		"neural network",
+		"convolutional neural network"
+	],
+	"related_identifiers": [
+		{
+			"relation": "isPartOf",
+		 	"identifier": "https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021266297"
+		}
+	],
+	"license": "MIT",
+	"upload_type": "software"
+}
