@@ -10,16 +10,6 @@
 			"name": "Van de Schoot, Rens",
 			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
 			"orcid": "0000-0001-7736-2091"
-		},
-		{
-			"name": "van den Brand, Sofie",
-			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
-			"orcid": "0000-0002-2408-3336 "
-		},
-		{
-			"name": "De Bruin, Jonathan",
-			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
-			"orcid": "0000-0002-4297-0502"
 		}
 	],
 	"keywords": [
@@ -36,7 +26,11 @@
 		{
 			"relation": "isPartOf",
 		 	"identifier": "https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021266297"
-		}
+		},
+		{
+			"relation": "isPartOf",
+		 	"identifier": " https://osf.io/m5uhy/ "
+		}		
 	],
 	"license": "MIT",
 	"upload_type": "software"
