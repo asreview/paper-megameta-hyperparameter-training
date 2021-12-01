@@ -25,10 +25,6 @@
 	"related_identifiers": [
 		{
 			"relation": "isPartOf",
-		 	"identifier": "https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021266297"
-		},
-		{
-			"relation": "isPartOf",
 		 	"identifier": "https://doi.org/10.17605/OSF.IO/M5UHY"
 		}		
 	],
