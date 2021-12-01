@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/424153223.svg)](https://zenodo.org/badge/latestdoi/424153223)
+
 # Hyperparameter-training for the Mega-Meta project
 
 The repository is part of the so-called, Mega-Meta study on reviewing factors
