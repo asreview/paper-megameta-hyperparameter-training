@@ -29,7 +29,7 @@
 		},
 		{
 			"relation": "isPartOf",
-		 	"identifier": " https://osf.io/m5uhy/ "
+		 	"identifier": "https://doi.org/10.17605/OSF.IO/M5UHY"
 		}		
 	],
 	"license": "MIT",
